@@ -2868,7 +2868,6 @@
 					"$(inherited)",
 					"TARGET_OS_EMBEDDED=1",
 				);
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				PREBINDING = NO;
 				SDKROOT = "";
@@ -3167,7 +3166,6 @@
 					"$(inherited)",
 					HAVE_SOCKADDR_SA_LEN,
 				);
-				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				HEADER_SEARCH_PATHS = /System/Library/Frameworks/System.framework/PrivateHeaders;
 				INSTALL_GROUP = wheel;
 				INSTALL_MODE_FLAG = 04555;
@@ -3697,7 +3695,6 @@
 					"$(inherited)",
 					"TARGET_OS_EMBEDDED=1",
 				);
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				PREBINDING = NO;
 				SDKROOT = "";
@@ -3725,7 +3722,6 @@
 					"$(inherited)",
 					"TARGET_OS_EMBEDDED=1",
 				);
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				PREBINDING = NO;
 				SDKROOT = "";
@@ -4049,7 +4045,6 @@
 					"$(inherited)",
 					HAVE_SOCKADDR_SA_LEN,
 				);
-				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				HEADER_SEARCH_PATHS = /System/Library/Frameworks/System.framework/PrivateHeaders;
 				INSTALL_GROUP = wheel;
 				INSTALL_MODE_FLAG = 04555;
@@ -4067,7 +4062,6 @@
 					"$(inherited)",
 					HAVE_SOCKADDR_SA_LEN,
 				);
-				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				HEADER_SEARCH_PATHS = /System/Library/Frameworks/System.framework/PrivateHeaders;
 				INSTALL_GROUP = wheel;
 				INSTALL_MODE_FLAG = 04555;
