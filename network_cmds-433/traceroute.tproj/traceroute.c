@@ -294,6 +294,8 @@ static const char rcsid[] =
 #include "as.h"
 #include "traceroute.h"
 
+#include "networkutil.h"
+
 /* Maximum number of gateways (include room for one noop) */
 #define NGATEWAYS ((int)((MAX_IPOPTLEN - IPOPT_MINOFF - 1) / sizeof(u_int32_t)))
 

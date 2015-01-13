@@ -1043,6 +1043,7 @@
 		72E650A4107BF2F000AAF325 /* af_link.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = af_link.c; sourceTree = "<group>"; };
 		72E650A5107BF2F000AAF325 /* ifbridge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ifbridge.c; sourceTree = "<group>"; };
 		72E650A6107BF2F000AAF325 /* ifclone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ifclone.c; sourceTree = "<group>"; };
+		8710F87D1A65A555003EF300 /* networkutil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = networkutil.h; sourceTree = "<group>"; };
 		E01AB08F1368880F008C66FF /* libutil.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libutil.dylib; path = $SDKROOT/usr/lib/libutil.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1264,6 +1265,7 @@
 		7248622F0EE86EB7001D0DE9 = {
 			isa = PBXGroup;
 			children = (
+				8710F87D1A65A555003EF300 /* networkutil.h */,
 				72E42BA214B7CF37003AAE28 /* network_cmds.plist */,
 				E01AB08F1368880F008C66FF /* libutil.dylib */,
 				726120380EE86EEB00AFED1B /* alias */,
@@ -3165,6 +3167,7 @@
 					"$(inherited)",
 					HAVE_SOCKADDR_SA_LEN,
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				HEADER_SEARCH_PATHS = /System/Library/Frameworks/System.framework/PrivateHeaders;
 				INSTALL_GROUP = wheel;
 				INSTALL_MODE_FLAG = 04555;
@@ -4046,6 +4049,7 @@
 					"$(inherited)",
 					HAVE_SOCKADDR_SA_LEN,
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				HEADER_SEARCH_PATHS = /System/Library/Frameworks/System.framework/PrivateHeaders;
 				INSTALL_GROUP = wheel;
 				INSTALL_MODE_FLAG = 04555;
@@ -4063,6 +4067,7 @@
 					"$(inherited)",
 					HAVE_SOCKADDR_SA_LEN,
 				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				HEADER_SEARCH_PATHS = /System/Library/Frameworks/System.framework/PrivateHeaders;
 				INSTALL_GROUP = wheel;
 				INSTALL_MODE_FLAG = 04555;
